@@ -1,0 +1,83 @@
+@mixin parent_width() {
+    max-width: 85vw;
+    margin-left: auto;
+    margin-right: auto;
+
+    @media screen and (min-width: 2560px) {
+        max-width: 1140px;
+    }
+
+}
+
+@mixin toggle(){
+    display: inline-block;
+    width: 100%;
+    height: 4px;
+    background-color: $main_text_color;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+@mixin row($justify: center, $alignItems: center) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $alignItems;
+}
+
+@mixin column($justify: center, $alignItems: center) {
+    display: flex;
+    flex-direction: column;
+    justify-content: $justify;
+    align-items: $alignItems;
+}
+
+@mixin button($background: $primary_color, $hover_background: $secondary_color) {
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    padding: $spacer * 2 $spacer * 3;
+    background-color: $background;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+
+
+    &:hover{
+        background-color: $secondary_color;
+        color: $background_color;
+        transition: 0.4s;
+    }
+}
+
+@mixin label-white() {
+    text-transform: uppercase;
+    font-size: calc(2.125rem + 8.5vw);
+    font-weight: 900;
+    text-align: center;
+    color: $background_color;
+    line-height: 0.8;
+    margin: $spacer 0 $spacer;
+    text-shadow: -2px 2px 0 $page_color;
+}
+
+@mixin label-color() {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: $primary_color;
+    font-size: calc(1.375rem + 1.5vw);
+    position: absolute;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+@mixin formBorder{
+    border: 1px solid $primary_color;
+    border-radius: 3px;
+    width: 30vw;
+    height: 5vh;
+    padding: $spacer * 3;
+}

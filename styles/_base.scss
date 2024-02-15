@@ -1,0 +1,44 @@
+html,
+body {
+    font-family: $font_family;
+    font-size: 16px;
+    background-color: $background_color;
+    line-height: 1.8;
+}
+
+li {
+    display: list-item;
+    list-style-type: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: $main_text_color;
+
+    &:hover {
+        color: $primary_color;
+        transition: 0.4s;
+    }
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: $main_text_color;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 1.4;
+    color: $main_text_color;
+    margin-bottom: 1.5rem;
+    display: block;
+    color: $main_text_color;
+}
+
+p{
+    color: $light_text_color;
+}

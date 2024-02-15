@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="assets/mrft-favicon-color .png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    <script
+      src="https://kit.fontawesome.com/440e6eb692.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Mrft-portfolio</title>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <a class="my-logo" href="#">
+          <img src="assets/mrft-logo-color.png" class="logo" alt="Logo" />
+        </a>
+
+        <input type="checkbox" id="toggle-button" />
+        <label for="toggle-button" class="toggle-button-lable">
+          <span></span>
+        </label>
+
+        <nav class="header-list">
+          <ul>
+            <li><a href="#" class="nav-link active">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#Skills" class="nav-link">Skills</a></li>
+            <li><a href="#Portfolio" class="nav-link">Portfolio</a></li>
+            <li><a href="#Review" class="nav-link">Review</a></li>
+            <li><a href="#Blog" class="nav-link">Blog</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="section-home" id="home">
+        <div class="home-text">
+          <span>FRONT-END DEVELOPER</span>
+          <h1>
+            I'm <br />
+            Somayeh <br />
+            Marefat
+          </h1>
+          <div class="button-container">
+            <a href="#about" class="button-primary">MORE ABOUT ME</a>
+            <a href="#" class="button-secondary">HIRE ME</a>
+          </div>
+        </div>
+        <div class="home-img">
+          <img src="assets/1.jpg" class="pic" alt="" />
+        </div>
+      </section>
+
+      <div class="label" id="about">
+        <p class="label-white">About</p>
+        <p class="label-color">About me</p>
+      </div>
+
+      <section class="section-about">
+        <article class="about-counter">
+          <div class="box-1">
+            <div class="counter-container">
+              <div class="counter" data-target="5000">5000</div>
+              <span>Happy Clients</span>
+            </div>
+
+            <div class="counter-container">
+              <div class="counter" data-target="1200">1200</div>
+              <span>Projects Done</span>
+            </div>
+          </div>
+
+          <div class="box-2">
+            <div class="counter-container">
+              <div class="counter" data-target="500">500</div>
+              <span>Cups of Coffee</span>
+            </div>
+
+            <div class="counter-container">
+              <div class="counter" data-target="587">587</div>
+              <span>Working Hourse</span>
+            </div>
+          </div>
+        </article>
+        <article class="about-desc">
+          <div class="about-text">
+            <h2>A Front-end Developer Based in Tehran</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+              inventore officiis error debitis itaque aspernatur a nesciunt
+              expedita nobis libero maxime vel nam, sequi eius sunt beatae iure
+              harum possimus.
+            </p>
+          </div>
+          <div class="about-info">
+            <div class="info-column-1">
+              <ul>
+                <li>
+                  <h5>Name</h5>
+                  <span>Somayeh Marefat</span>
+                </li>
+                <li>
+                  <h5>Email</h5>
+                  <span>smarefat8@gmail.com</span>
+                </li>
+              </ul>
+            </div>
+            <div class="info-column-2">
+              <ul>
+                <li>
+                  <h5>Phone</h5>
+                  <span>+98 2100000000</span>
+                </li>
+                <li>
+                  <h5>Address</h5>
+                  <span>Tehran, Iran</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <a href="#" class="button-primary">DOWNLOAD CV</a>
+        </article>
+      </section>
+      <div class="label" id="Skills">
+        <p class="label-white">Skills</p>
+        <p class="label-color">My Skills</p>
+      </div>
+
+      <section class="section-skill">
+        <div class="skill-1">
+          <div class="progress-bar">
+            <span class="span-skill">ADOBE PHOTOSHOP</span>
+            <progress value="55" max="100"></progress>
+          </div>
+          <div class="progress-bar">
+            <span>FIGMA</span>
+            <progress value="45" max="100"></progress>
+          </div>
+          <div class="progress-bar">
+            <span>WORDPRESS</span>
+            <progress value="75" max="100"></progress>
+          </div>
+        </div>
+        <div class="skill-2">
+          <div class="progress-bar">
+            <span>HTML5</span>
+            <progress value="90" max="100"></progress>
+          </div>
+          <div class="progress-bar">
+            <span>CSS3</span>
+            <progress value="85" max="100"></progress>
+          </div>
+          <div class="progress-bar">
+            <span>JAVASCRIPT </span>
+            <progress value="35" max="100"></progress>
+          </div>
+        </div>
+      </section>
+
+      <div class="label" id="Portfolio">
+        <p class="label-white">GALLERY</p>
+        <p class="label-color">My PORTFOLIO</p>
+      </div>
+
+      <section class="section-portfolio">
+        <div class="portfolio-btn" id="gallery-categoreis">
+         
+        </div>
+        <div class="portfolio-list" id="gallery-list">
+        
+        </div>
+      </section>
+
+      <!-- <div class="label" id="Review">
+        <p class="label-white">REVIEW</p>
+        <p class="label-color">CLIENTS SAY</p>
+      </div>
+
+      <div class="label" id="Blog">
+        <p class="label-white">BLOG</p>
+        <p class="label-color">LATEST BLOG</p>
+      </div> -->
+
+      <div class="label" id="contact">
+        <p class="label-white">CONTACT</p>
+        <p class="label-color">CONTACT ME</p>
+      </div>
+
+      <section class="section-contact">
+        <form>
+          <div>
+            <div class="contact">
+              <div class="contact-row">
+                <input
+                  type="text"
+                  class="form-name form-border"
+                  id="name"
+                  placeholder="Your Name"
+                  required
+                />
+                <input
+                  type="email"
+                  class="form-email form-border"
+                  id="Email"
+                  placeholder="Your Email"
+                  required
+                />
+              </div>
+              <div class="contact-column">
+                <input
+                  type="text"
+                  class="form-subject form-border"
+                  id="subject"
+                  placeholder="subject"
+                  required
+                />
+                <textarea
+                  class="form-message form-border"
+                  id="message"
+                  placeholder="craet a message here..."
+                  required
+                ></textarea>
+              </div>
+            </div>
+
+            <div class="contact-btn">
+              <button class="form-btn" type="submit" id="sendMessageBtn">
+                Send Message
+              </button>
+            </div>
+          </div>
+        </form>
+      </section>
+
+      <footer class="footer">
+        <div class="section-footer">
+          <ul class="social-icon">
+            <li>
+              <a href="#"
+                ><span><i class="fa-brands fa-twitter"></i></span
+              ></a>
+            </li>
+
+            <li>
+              <a href="#"
+                ><span><i class="fa-brands fa-facebook-f"></i></span
+              ></a>
+            </li>
+
+            <li>
+              <a href="#"
+                ><span><i class="fa-brands fa-instagram"></i></span
+              ></a>
+            </li>
+            <li>
+              <a href="#"
+                ><span><i class="fa-brands fa-linkedin"></i></span
+              ></a>
+            </li>
+          </ul>
+          <p class="p-footer">
+            Copyright ©2024 All rights reserved | This template is made by
+            <span>Mrft</span>
+          </p>
+        </div>
+      </footer>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
